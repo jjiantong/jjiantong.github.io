@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='gz.ust.hk'>The Hong Kong University of Science and Technology</a> MPhil Student
+subtitle: MPhil Student <a href="https://gz.ust.hk">The Hong Kong University of Science and Technology</a>
 
 profile:
   align: right
@@ -10,6 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   address: >
     <p>Nansha, Guangzhou, Guangdong</p>
+    
 
 news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
