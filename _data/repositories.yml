@@ -1,12 +1,14 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - Tonanguyxiro
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - Tonanguyxiro/HKUST-GZ_Marpit_Template
+  - Tonanguyxiro/SUSTech-Slide-Template-LateX-EN
+
+  - Tonanguyxiro/PolyU_COMP2011_Data_Structure
+  - Tonanguyxiro/EE205-Signal-and-System-Project
+  - Tonanguyxiro/EE326-Digital-Image-Processing-Project
+  - Tonanguyxiro/EE306-Digital-CMOS-Design-Project
+  - Tonanguyxiro/EE326_Digital_Image_Processing_LAB
+  - Tonanguyxiro/EE205_Signal_and_System_LAB
+  - Tonanguyxiro/SUSTech_EE341_Advanced_Integrated_Circuit_Design_Microprocessor_Project
