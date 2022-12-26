@@ -33,26 +33,26 @@
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 2022
-    - year: 2021
-      items: 
-      - SC-21 Student Cluster Competition
+    # - year: 2022
+    - title: SC-21 Student Cluster Competition
+      year: 2021
+      description: 
+      - The third winner as team member.
+
+    - title: APAC-AI Student Supercomputer Competition
+      year: 2020
       description:
-        - The third winner as team member.
-    - year: 2020
-      items: 
-        - APAC-AI Student Supercomputer Competition
-        description:
-          - The third winner as team member.
-      items: 
-        - SME Innovation Competition
-        description:
-          - First Prize as team member, second prize as team leader (Two projects that I take part in won prizes)
-    - year: 2019  
-      items: 
-        - ASC 20-21 Student Supercomputer Challenge
-        description:
-          - Second Prize as team leader.
+      - The third winner as team member.
+
+    - title: SME Innovation Competition
+      year: 2020
+      description: 
+      - First Prize as team member, second prize as team leader (Two projects that I take part in won prizes)
+
+    - title: ASC 20-21 Student Supercomputer Challenge
+      year: 2019  
+      description: 
+      - Second Prize as team leader.
         
 
 - title: Academic Interests
