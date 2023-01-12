@@ -8,7 +8,7 @@
     - name: Languages
       value: Chinese, English
     - name: Programming
-      value: 
+      value: Python, C/C++, Matlab, Scala
 
 - title: Education
   type: time_table
@@ -20,7 +20,7 @@
         - Description 1.
         - Description 2.
     - title: Exchange Study
-      institution: The Hong Kong Polytechnic University
+      institution: The Hong Kong Polytechnic University (HK PolyU)
       year: 2021.9 - 2021.12
       description:
         - Enroll as an exchange student at Department of Computing.
@@ -61,7 +61,7 @@
       items: 
         - Description 1.
         - Description 2.
-    - title: Topic 2.
+    - title: Hardware
       items:
         - Description 1.
         - Description 2.
