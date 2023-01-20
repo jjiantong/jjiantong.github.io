@@ -24,10 +24,10 @@ social: true  # includes social icons at the bottom of the page
 I am Yuan Tong, currently I am pursing my MPhil study at [Data Science and Analysis (DSA) Thrust](https://infh.hkust-gz.edu.cn/en/academics/dsa), [Information Hub](https://infh.hkust-gz.edu.cn/en), [The Hong Kong University of Science and Technology (Guangzhou) (HKUST-GZ)](https://gz.ust.hk), under the supervisor [Prof Wen Zeyi](https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=2217) and working on distributed training and inference of Artificial Intelligence (AI) Network on High Performance Computing (HPC) system.
 
 <!-- Past -->
-I got my bachelor's degree on engineering at [School of Microelectronics (SME)](https://sme.sustech.edu.cn), [Southern University of Science and Technology (SUSTech)](https://sustech.edu.cn) and used to in [Prof Chen Qvan]()'s High Speed EDA LAB. In the meanwhile, I am member of SUSTech Super Computing Team, we take part in many competitions including [ASC](), [APAC](), [SC](), [ISC](), and have achieved 
+I got my bachelor's degree on engineering at [School of Microelectronics (SME)](https://sme.sustech.edu.cn), [Southern University of Science and Technology (SUSTech)](https://sustech.edu.cn) and used to in [Prof Chen Qvan]()'s High Speed EDA LAB. In the meanwhile, I am member of SUSTech Super Computing Team, we take part in many competitions including [ASC](), [APAC](), [SC](), [ISC](), and have achieved outstanding awards.
 
 <!-- Besides -->
-Besides, 
+Besides, outside the classroom and laboratory, I perform as photographer, designer, DIY-lover, and plenty of characters that can release my creativity, enthusiasm, and imagination. The world is just like range upon range of mountains and I am exploring it step by step.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
