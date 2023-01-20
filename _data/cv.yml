@@ -17,8 +17,7 @@
       institution: The Hong Kong University of Science and Technology (Guangzhou)
       year: 2022.9 - Now
       description:
-        - Description 1.
-        - Description 2.
+        - Study in Red Bird MPhil Program
     - title: Exchange Study
       institution: The Hong Kong Polytechnic University (HK PolyU)
       year: 2021.9 - 2021.12
@@ -59,12 +58,17 @@
   contents:
     - title: High Performance Computing
       items: 
-        - Description 1.
-        - Description 2.
+        - Scale expansion.
+        - Performance optimization
+        - RDMA Programming
     - title: Hardware
       items:
-        - Description 1.
-        - Description 2.
+        - Robotics
+        - Embedded System
+    - title: Artificial Intelligence
+      items:
+        - Autonomous Driving
+        - Bayesian Network
 
 - title: Experience
   type: time_table
