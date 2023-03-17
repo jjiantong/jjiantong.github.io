@@ -114,7 +114,7 @@ blockquote {
 
 @media (min-width: 576px) {
   .profile {
-    width: 30%;
+    width: 22%; // jt_comment: here to change the size of the profile image -- by percentage of the width
     .address {
       p { display: block; }
     }
@@ -253,7 +253,7 @@ blockquote {
 .social {
   text-align: center;
   .contact-icons {
-    font-size: 4rem;
+    font-size: 2.5rem; // jt_comment: here to change the size of the icons; 4 originally
     a {
       i::before {
         color: var(--global-text-color);
@@ -461,6 +461,7 @@ footer.sticky-bottom {
 }
 
 
+
 // Publications
 
 .publications {
@@ -479,6 +480,15 @@ footer.sticky-bottom {
     }
   }
   h2.year {
+    color: var(--global-divider-color);
+    border-top: 1px solid var(--global-divider-color);
+    padding-top: 1rem;
+    margin-top: 2rem;
+    margin-bottom: -2rem;
+    text-align: right;
+  }
+  // jt_comment: want to use smaller size font for the years, so define a h3 followed by h2
+  h3.year {
     color: var(--global-divider-color);
     border-top: 1px solid var(--global-divider-color);
     padding-top: 1rem;
@@ -554,6 +564,18 @@ footer.sticky-bottom {
           &:hover {
             color: var(--global-theme-color);
             border-color: var(--global-theme-color);
+          }
+        }
+      }
+      .badges {
+        span {
+          display: inline-block;
+          color: $black-color;
+          height: 100%;
+          padding-left: 0.5rem;
+          vertical-align: middle;
+          &:hover {
+            text-decoration: underline;
           }
         }
       }
