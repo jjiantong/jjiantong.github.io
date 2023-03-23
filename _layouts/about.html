@@ -56,15 +56,15 @@ layout: default
 
 
           <!-- Repos -->
-          <!-- add repos in about, the content after h2 is followed by _pages/repositories.md -->
-          {% if page.repos -%}
+          <!-- jt_comment: add repos in about, the content after h2 is followed by _pages/repositories.md -->
+          <!-- {% if page.repos -%}
           <h2><a href="{{ '/repositories/' | relative_url }}" style="color: inherit;">repos</a></h2>
           <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
             {% for repo in site.data.repositories.github_repos %}
               {% include repository/repo.html repository=repo %}
             {% endfor %}
           </div>
-          {%- endif %}
+          {%- endif %} -->
 
           <!-- Selected papers -->
           {% if page.selected_papers -%}

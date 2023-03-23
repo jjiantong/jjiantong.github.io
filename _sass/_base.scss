@@ -114,7 +114,7 @@ blockquote {
 
 @media (min-width: 576px) {
   .profile {
-    width: 22%; // jt_comment: here to change the size of the profile image -- by percentage of the width
+    width: 20%; // jt_comment: here to change the size of the profile image -- by percentage of the width
     .address {
       p { display: block; }
     }
@@ -506,7 +506,7 @@ footer.sticky-bottom {
       .preview {
         width: 100%;
         min-width: 80px;
-        max-width: 200px;
+        max-width: 400px;
       }
       .abbr {
         height: 2rem;

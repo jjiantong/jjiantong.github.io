@@ -2,8 +2,9 @@
 ---
 <!-- _layouts/bib.html -->
       <div class="row">
-        <!-- jt_comment: enable here to enable paper preview (add also change the size for the next part) -->
-        <!-- <div class="col-sm-2 {% if entry.preview %}preview{% else %}abbr{% endif %}">
+        <!-- jt_comment: enable/disable here to enable paper preview 
+          (also change the size in this and the next part) -->
+        <div class="col-sm-3 {% if entry.preview %}preview{% else %}abbr{% endif %}">
         {%- if entry.preview -%}
           {% if entry.preview contains '://' -%}
           <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
@@ -25,10 +26,10 @@
             <abbr class="badge">{{entry.abbr}}</abbr>
           {%- endif -%}
         {%- endif -%}
-        </div> -->
+        </div>
 
         <!-- Entry bib key jt_comment: change col-sm-8 to col-sm-9, bootstrapt grid system param, used to change the width of the text -->
-        <div id="{{entry.key}}" class="col-sm-11"> 
+        <div id="{{entry.key}}" class="col-sm-9"> 
         <!-- Title -->
         <div class="title">{{entry.title}}</div>
         <!-- Author -->

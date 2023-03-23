@@ -11,7 +11,8 @@ nav_order: 1
 <div class="publications">
 
 {%- for y in page.years %}
-  <h3 class="year">{{y}}</h3>
+  <!-- jt_comment: enable/disable categories by years -->
+  <!-- <h3 class="year">{{y}}</h3>  -->
   {% bibliography -f papers -q @*[year={{y}}]* %}
 {% endfor %}
 
