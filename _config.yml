@@ -97,8 +97,7 @@ facebook_id: # your facebook id
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 discord_id: # your discord id (18-digit unique numerical identifier)
 
-contact_note: > 
-  Office: G17 Room, 241 Computer Science Building, 35 Stirling Hwy, Crawley WA 6009
+contact_note: > # Office: G17 Room, 241 Computer Science Building, 35 Stirling Hwy, Crawley WA 6009
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification

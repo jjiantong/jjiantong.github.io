@@ -34,12 +34,6 @@ layout: default
               {{ page.profile.address }}
             </div>
             {%- endif %}
-          </div>
-          {%- endif %}
-
-          <div class="clearfix">
-            {{ content }}
-            
             <!-- Social -->
             {%- if page.social %}
             <div class="social">
@@ -52,6 +46,24 @@ layout: default
               </div>
             </div>
             {%- endif %}
+          </div>
+          {%- endif %}
+
+          <div class="clearfix">
+            {{ content }}
+            
+            <!-- Social -->
+            <!-- {%- if page.social %}
+            <div class="social">
+              <div class="contact-icons">
+                {% include social.html %}
+              </div>
+
+              <div class="contact-note">
+                {{ site.contact_note }}
+              </div>
+            </div>
+            {%- endif %} -->
           </div>
 
 
@@ -81,7 +93,7 @@ layout: default
           
 
           <!-- Social -->
-          <!-- jt_comment: I just move it below short bio (cf. "clearfix") -->
+          <!-- jt_comment: I just move it below short bio (cf. "clearfix"), and then below profile image... -->
           <!-- {%- if page.social %}
             <div class="social">
               <div class="contact-icons">
