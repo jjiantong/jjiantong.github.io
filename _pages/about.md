@@ -18,7 +18,7 @@ social: true  # includes social icons at the bottom of the page
 
 <!-- <h2>short bio</h2> -->
 I am currently a PhD candidate at Computer Science, [The University of Western Australia](https://www.uwa.edu.au/home) (UWA), advised by Prof [Ajmal Mian](https://ajmalsaeed.net/), A/Prof [Zeyi Wen](https://zeyiwen.github.io/) and Dr [Atif Mansoor](https://research-repository.uwa.edu.au/en/persons/atif-mansoor).
-Before commencing my PhD study at UWA, I was a Research Assistant at [RC4ML group](https://github.com/RC4ML) at [Zhejiang University](http://www.zju.edu.cn/), advised by A/Prof [Zeke Wang](https://wangzeke.github.io/).
+Prior to that, I was a Research Assistant at [RC4ML group](https://github.com/RC4ML) at [Zhejiang University](http://www.zju.edu.cn/), advised by A/Prof [Zeke Wang](https://wangzeke.github.io/).
 I obtained my M.S. degree at Computer Science from [Northeastern University (China)](http://www.neu.edu.cn/), advised by Prof [Qingxu Deng](http://www.neu-rtes.org/~dengqx/) and A/Prof [Xue Liu](http://www.cse.neu.edu.cn/2019/0813/c6641a157482/page.htm).
 <!-- I obtained my M.S. and B.S. degree at Computer Science from [Northeastern University (China)](http://www.neu.edu.cn/) and [North University of China](http://www.nuc.edu.cn/) respectively.  -->
 My research interests include automated machine learning (AutoML) and high-performance computing system. 

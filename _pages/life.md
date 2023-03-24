@@ -7,10 +7,15 @@ nav: true
 nav_order: 4
 ---
 
-<!-- jt_comment: add a life part -- followed by 1_project and https://blog.csdn.net/weixin_40688217/article/details/96726509
-                 each time just add photos on the top -->
+<!-- jt_comment: add a life part -- followed by 1_project and https://blog.csdn.net/weixin_40688217/article/details/96726509; each time just add photos on the top -->
 
 <div class="row">
+    <div class="col-sm-6 col-md-3 col-lg-3">
+        {% include figure.html path="assets/img/Moore_River.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        <div class="caption">
+            [<a href="https://www.bilibili.com/video/BV1Dx4y1P7T7/?spm_id_from=333.999.0.0" target="_blank">Moore River</a>]
+        </div>
+    </div>
     <div class="col-sm-6 col-md-3 col-lg-3">
         {% include figure.html path="assets/img/Cape_Leeuwin_Lighthouse.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
         <div class="caption">
