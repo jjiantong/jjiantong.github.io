@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Jiantong Jiang # the website title (if blank, full name will be used instead)
+title: Jiantong Jiang #(姜鉴桐) # the website title (if blank, full name will be used instead)
 first_name: Jiantong
 middle_name: 
 last_name: Jiang
@@ -14,7 +14,7 @@ footer_text: >
 keywords:  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: beach.ico #koala.png  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: koala.png # beach.ico  # the emoji used as the favicon (alternatively, provide image name in /assets/img/) jt_comment: change favicon here
 
 url: https://jjiantong.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/

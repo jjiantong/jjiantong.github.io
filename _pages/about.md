@@ -24,7 +24,7 @@ I received my M.S. degree at Computer Science from [Northeastern University (Chi
 
 <!-- <h2>research</h2> -->
 <b>Research:</b> My research focuses on building high-performance machine learning systems. I am also interested in automated machine learning (AutoML). 
-<!-- [[List of publications](/publications/)] -->
+**[[List of publications]](/publications/)**
 
 <!-- My boyfriend Peiyu Yang is a PhD candidate at UWA, conducting research on explainable artificial intelligence and robust model training. Checkout out his [webpage](https://ypeiyu.github.io/). -->
 

@@ -3,6 +3,19 @@
 
 @string{aps = {American Physical Society,}}
 
+@article{zhu2023staleness,
+  title={Staleness-reduction Mini-batch K-means},
+  author={Zhu, Xueying and Sun, Jie and He, Zhenhao and Jiang, Jiantong and Wang, Zeke},
+  journal={IEEE Transactions on Neural Networks and Learning Systems (TNNLS)},
+  abstract = {K-means is a clustering algorithm that has been widely adopted due to its simple implementation and high clustering quality. However, the standard k-means suffers from high computational complexity and is therefore time-consuming. Accordingly, the mini-batch k-means is proposed to significantly reduce computational costs in a manner that updates centroids after performing distance computations on just a mini-batch, rather than a full batch, of samples. Even though the mini-batch k-means converges faster, it leads to a decrease in convergence quality because it introduces staleness during iterations. To this end, in this paper, we propose the staleness-reduction mini-batch k-means (srmbatch), which achieves the best of two worlds: low computational costs like the mini-batch k-means (mbatch) and high clustering quality like the standard k-means (km). Moreover, srmbatch still exposes massive parallelism to be efficiently implemented on multi-core CPUs and many-core GPUs. The experimental results show that srmbatch can converge up to 40X-130X faster than mbatch when reaching the same target loss, and srmbatch is able to reach 0.2{%}-1.7{%} lower final loss than that of mbatch.},
+  year={2023},
+  publisher={IEEE},
+
+  bibtex_show = {true},
+  preview = {tnnls23_kmeans.png},
+}
+
+
 @inproceedings{10.1145/3572848.3577476,
   author = {Jiang, Jiantong and Wen, Zeyi and Mansoor, Atif and Mian, Ajmal},
   title = {Fast Parallel Exact Inference on Bayesian Networks},
