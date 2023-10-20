@@ -3,6 +3,20 @@
 
 @string{aps = {American Physical Society,}}
 
+@article{yang2024parallel,
+  title={Parallel and Distributed Bayesian Network Structure Learning},
+  author={Yang, Jian and Jiang, Jiantong and Wen, Zeyi and Mian, Ajmal},
+  journal={IEEE Transactions on Parallel and Distributed Systems (TPDS)},
+  abstract = {Bayesian networks (BNs) are graphical models representing uncertainty in causal discovery, and have been widely used in medical diagnosis and gene analysis due to their effectiveness and good interpretability. However, mainstream BN structure learning methods are computationally expensive, as they must perform numerous conditional independence (CI) tests to decide the existence of edges. Some researchers attempt to accelerate the learning process by parallelism, but face issues including load unbalancing, costly dominant parallelism overhead. We propose a multi-thread method, namely Fast-BNS version 1 (Fast-BNS-v1 for short), on multi-core CPUs to enhance the efficiency of the BN structure learning. Fast-BNS-v1 incorporates a series of efficiency optimizations, including a dynamic work pool for better scheduling, grouping CI tests to avoid unnecessary operations, a cache-friendly data storage to improve memory efficiency, and on-the-fly conditioning sets generation to avoid extra memory consumption.To further boost learning performance, we develop a two-level parallel method Fast-BNS-v2 by integrating edge-level parallelism with multi-processes and CI-level parallelism with multi-threads. Fast-BNS-v2 is equipped with careful optimizations including dynamic work stealing for load balancing, SIMD edge list deletion for list updating, and effective communication policies for synchronization. Comprehensive experiments show that our Fast-BNS achieves 9 to 235 times speedup over the state-of-the-art multi-threaded method on a single machine. When running on multi-machines, it further reduces the execution time of the single-machine implementation by 80{%}.},
+  year={2024},
+  publisher={IEEE},
+
+  bibtex_show = {true},
+  preview = {tpds24_bnsl.jpg},
+  %paper = {tpds21-ssvm.pdf},
+}
+
+
 @article{zhu2023staleness,
   title={Staleness-reduction Mini-batch K-means},
   author={Zhu, Xueying and Sun, Jie and He, Zhenhao and Jiang, Jiantong and Wang, Zeke},

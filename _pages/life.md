@@ -11,6 +11,30 @@ nav_order: 4
 
 <div class="row">
     <div class="col-sm-6 col-md-3 col-lg-3">
+        {% include figure.html path="assets/img/Grassland.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        <div class="caption">
+            [<a href="https://www.bilibili.com/video/BV19m4y1J7ot/?spm_id_from=333.999.0.0" target="_blank">Grassland Scenery</a>]
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-3 col-lg-3">
+        {% include figure.html path="assets/img/Dalkeith.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        <div class="caption">
+            [<a href="https://www.bilibili.com/video/BV1NP411X7iX/?spm_id_from=333.999.0.0" target="_blank">Swan River Sunset</a>]
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-3 col-lg-3">
+        {% include figure.html path="assets/img/UWA2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        <div class="caption">
+            [<a href="https://www.bilibili.com/video/BV1nm4y117Jb/?spm_id_from=333.999.0.0" target="_blank">UWA Campus Surroundings</a>]
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-3 col-lg-3">
+        {% include figure.html path="assets/img/The_Pinnacles.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        <div class="caption">
+            [<a href="https://www.bilibili.com/video/BV1zV4y1f7kC/?spm_id_from=333.788" target="_blank">The Pinnacles</a>]
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-3 col-lg-3">
         {% include figure.html path="assets/img/Moore_River.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
         <div class="caption">
             [<a href="https://www.bilibili.com/video/BV1Dx4y1P7T7/?spm_id_from=333.999.0.0" target="_blank">Moore River</a>]
@@ -80,12 +104,6 @@ nav_order: 4
         {% include figure.html path="assets/img/Hyde_Park.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
         <div class="caption">
             [<a href="https://www.bilibili.com/video/BV1ED4y1e7yw/?spm_id_from=333.999.0.0" target="_blank">Hyde Park</a>]
-        </div>
-    </div>
-    <div class="col-sm-6 col-md-3 col-lg-3">
-        {% include figure.html path="assets/img/City_of_Light_Show.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-        <div class="caption">
-            [<a href="https://www.bilibili.com/video/BV1sd4y187u3/?spm_id_from=333.999.0.0" target="_blank">City of Light Show</a>]
         </div>
     </div>
     <div class="col-sm-6 col-md-3 col-lg-3">
