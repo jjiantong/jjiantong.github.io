@@ -11,6 +11,12 @@ nav_order: 4
 
 <div class="row">
     <div class="col-sm-6 col-md-3 col-lg-3">
+        {% include figure.html path="assets/img/Milky_Way.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        <div class="caption">
+            [<a href="https://www.bilibili.com/video/BV1eX4y1J7VZ/?spm_id_from=333.999.0.0" target="_blank">Milky Way</a>]
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-3 col-lg-3">
         {% include figure.html path="assets/img/Grassland.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
         <div class="caption">
             [<a href="https://www.bilibili.com/video/BV19m4y1J7ot/?spm_id_from=333.999.0.0" target="_blank">Grassland Scenery</a>]
@@ -59,9 +65,9 @@ nav_order: 4
         </div>
     </div>
     <div class="col-sm-6 col-md-3 col-lg-3">
-        {% include figure.html path="assets/img/Busselton_Jelly.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/Busselton_Jetty.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
         <div class="caption">
-            [<a href="https://www.bilibili.com/video/BV1HT41117GU/?spm_id_from=333.999.0.0" target="_blank">Busselton Jelly</a>]
+            [<a href="https://www.bilibili.com/video/BV1HT41117GU/?spm_id_from=333.999.0.0" target="_blank">Busselton Jetty</a>]
         </div>
     </div>
     <div class="col-sm-6 col-md-3 col-lg-3">
@@ -98,12 +104,6 @@ nav_order: 4
         {% include figure.html path="assets/img/Perth_Zoo.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
         <div class="caption">
             [<a href="https://www.bilibili.com/video/BV1qG4y1d795/?spm_id_from=333.999.0.0" target="_blank">Perth Zoo</a>]
-        </div>
-    </div>
-    <div class="col-sm-6 col-md-3 col-lg-3">
-        {% include figure.html path="assets/img/Hyde_Park.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-        <div class="caption">
-            [<a href="https://www.bilibili.com/video/BV1ED4y1e7yw/?spm_id_from=333.999.0.0" target="_blank">Hyde Park</a>]
         </div>
     </div>
     <div class="col-sm-6 col-md-3 col-lg-3">
