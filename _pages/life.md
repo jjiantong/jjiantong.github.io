@@ -11,6 +11,12 @@ nav_order: 4
 
 <div class="row">
     <div class="col-sm-6 col-md-3 col-lg-3">
+        {% include figure.html path="assets/img/Mandurah.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        <div class="caption">
+            [<a href="https://www.bilibili.com/video/BV1eX4y1J7VZ/?spm_id_from=333.999.0.0" target="_blank">Mandurah</a>]
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-3 col-lg-3">
         {% include figure.html path="assets/img/Milky_Way.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
         <div class="caption">
             [<a href="https://www.bilibili.com/video/BV1eX4y1J7VZ/?spm_id_from=333.999.0.0" target="_blank">Milky Way</a>]
@@ -44,12 +50,6 @@ nav_order: 4
         {% include figure.html path="assets/img/Moore_River.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
         <div class="caption">
             [<a href="https://www.bilibili.com/video/BV1Dx4y1P7T7/?spm_id_from=333.999.0.0" target="_blank">Moore River</a>]
-        </div>
-    </div>
-    <div class="col-sm-6 col-md-3 col-lg-3">
-        {% include figure.html path="assets/img/Cape_Leeuwin_Lighthouse.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-        <div class="caption">
-            [<a href="https://www.bilibili.com/video/BV1KY4y1y74T/?spm_id_from=333.999.0.0" target="_blank">Cape Leeuwin Lighthouse</a>]
         </div>
     </div>
     <div class="col-sm-6 col-md-3 col-lg-3">
@@ -137,6 +137,7 @@ nav_order: 4
         </div>
     </div>
 </div>
+
 
 
 
