@@ -3,11 +3,40 @@
 
 @string{aps = {American Physical Society,}}
 
+@article{jiang2024faster,
+  title={Faster-BNI: Fast Parallel Exact Inference on Bayesian Networks},
+  author={Jiang, Jiantong and Wen, Zeyi and Mansoor, Atif and Mian, Ajmal},
+  journal={IEEE Transactions on Parallel and Distributed Systems},
+  year={2024},
+  volume={35},
+  number={8},
+  pages={1444-1455},
+  publisher={IEEE}
+
+  bibtex_show = {true},
+  preview = {tpds24_bnei.jpg},
+}
+
+@inproceedings{jiang2024fast,
+  title={Fast inference for probabilistic graphical models},
+  author={Jiang, Jiantong and Wen, Zeyi and Mansoor, Atif and Mian, Ajmal},
+  booktitle={2024 USENIX Annual Technical Conference (USENIX ATC 24)},
+  abstract={Probabilistic graphical models (PGMs) have attracted much attention due to their firm theoretical foundation and inherent interpretability. However, existing PGM inference systems are inefficient and lack sufficient generality, due to issues with irregular memory accesses, high computational complexity, and modular design limitation. In this paper, we present Fast-PGM, a fast and parallel PGM inference system for importance sampling-based approximate inference algorithms. Fast-PGM incorporates careful memory management techniques to reduce memory consumption and enhance data locality. It also employs computation and parallelization optimizations to reduce computational complexity and improve the overall efficiency. Furthermore, Fast-PGM offers high generality and flexibility, allowing easy integration with all the mainstream importance sampling-based algorithms. The system abstraction of Fast-PGM facilitates easy optimizations, extensions, and customization for users. Extensive experiments show that Fast-PGM achieves 3 to 20 times speedup over the state-of-the-art implementation. Fast-PGM source code is freely available at https://github.com/jjiantong/FastPGM.},
+  pages={95--110},
+  year={2024}
+
+  bibtex_show = {true},
+  preview = {atc24_bnai.jpg},
+  paper = {atc24_bnai.pdf},
+  slides = {atc24_bnai_slides.pdf},
+  code = {https://github.com/jjiantong/FastPGM}
+}
 
 @inproceedings{jiang2024efficient,
   title={Efficient Hyperparameter Optimization with Adaptive Fidelity Identification},
   author={Jiang, Jiantong and Wen, Zeyi and Mansoor, Atif and Mian, Ajmal},
-  booktitle={IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={26181--26190},
   abstract={Hyperparameter Optimization and Neural Architecture Search are powerful in attaining state-of-the-art machine learning models, with Bayesian Optimization (BO) standing out as a mainstream method. Extending BO into the multi-fidelity setting has been an emerging research topic in this field, but faces the challenge of determining an appropriate fidelity for each hyperparameter configuration to fit the surrogate model. To tackle the challenge, we propose a multi-fidelity BO method named FastBO, which excels in adaptively deciding the fidelity for each configuration and providing strong performance while ensuring efficient resource usage. These advantages are achieved through our proposed techniques based on the concepts of efficient point and saturation point for each configuration, which can be obtained from the empirical learning curve of the configuration, estimated from early observations. Extensive experiments demonstrate FastBO’s superior anytime performance and efficiency in identifying high-quality configurations and architectures. We also show that our method provides a way to extend any single-fidelity method to the multi-fidelity setting, highlighting the wide applicability of our approach.},
   year={2024},
 
@@ -15,7 +44,9 @@
   preview = {cvpr24_hpo.jpg},
   paper = {cvpr24_hpo.pdf},
   poster = {cvpr24_hpo_poster.pdf},
-  code = {https://github.com/jjiantong/FastBO}
+  slides = {cvpr24_hpo_slides.pdf},
+  code = {https://github.com/jjiantong/FastBO},
+  video = {https://www.bilibili.com/video/BV1CHWDePEb8/?spm_id_from=333.999.0.0}
 }
 
 
@@ -59,7 +90,7 @@
   preview = {ppopp23_bnei.jpg},
   paper = {ppopp23_bnei.pdf},
   poster = {ppopp23_bnei_poster.pdf},
-  code = {https://github.com/jjiantong/FastBN}
+  code = {https://github.com/jjiantong/FastPGM}
 }
 
 
@@ -76,7 +107,7 @@
   preview = {ipdps22_bnsl.jpg},
   paper = {ipdps22_bnsl.pdf},
   slides = {ipdps22_bnsl_slides.pdf},
-  code = {https://github.com/jjiantong/FastBN},
+  code = {https://github.com/jjiantong/FastPGM},
   video = {https://www.bilibili.com/video/BV1Ra411R71R/?spm_id_from=333.999.0.0}
 }
 
